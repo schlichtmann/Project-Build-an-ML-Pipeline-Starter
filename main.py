@@ -133,9 +133,18 @@ def go(config: DictConfig):
             ##################
             # Implement here #
             ##################
-
-            pass
-
+            _ = mlflow.run(
+                    os.path.join(
+                        config["main"]["components_repository"],
+                        "test_regression_model"
+                    ),
+                    "main",
+                    env_manager="conda",
+                    parameters={
+                        "mlflow_model": "random_forest_export:prod",
+                        "test_dataset": "test_data.csv:latest",
+                    },
+            )
 
 if __name__ == "__main__":
     go()

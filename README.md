@@ -175,6 +175,28 @@ If you see the any error while running the command:
 
 Please, make sure all steps are using **the same** python version and that you have **conda installed**. Additionally, *mlflow* and *wandb* packages are crucial and should have the same version.
 
+### Note for Reviewer:
+I hope I understood the instructions correctly, as I am adding the links to this readme file below. My apologies, but Englis is my second language. Thanks for your time.
+
+### Project Links
+
+- GitHub Repository:
+https://github.com/schlichtmann/Project-Build-an-ML-Pipeline-Starter
+
+- Weights & Biases Project:
+https://forge.coreweave.com/wandb/rschli6-western-governors-university/nyc_airbnb
+
+##Other Changes to Consider:
+Potential improvements for future pipeline releases include:
+
+- Testing additional machine learning algorithms beyond Random Forest, such as Gradient Boosting or XGBoost.
+- Expanding hyperparameter optimization to search a wider range of model configurations.
+- Adding automated data drift detection to identify changes in incoming data distributions.
+- Implementing automated model retraining and deployment workflows.
+- Expanding data validation rules to detect additional quality issues before training.
+- Adding experiment reports that automatically summarize model performance and feature importance.
+- Improving geographic validation rules by incorporating official NYC boundary datasets.
+
 
 ## License
 

@@ -186,7 +186,7 @@ https://github.com/schlichtmann/Project-Build-an-ML-Pipeline-Starter
 - Weights & Biases Project:
 https://forge.coreweave.com/wandb/rschli6-western-governors-university/nyc_airbnb
 
-##Other Changes to Consider:
+### Other Changes to Consider:
 Potential improvements for future pipeline releases include:
 
 - Testing additional machine learning algorithms beyond Random Forest, such as Gradient Boosting or XGBoost.
